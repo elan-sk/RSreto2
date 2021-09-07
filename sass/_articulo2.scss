@@ -1,0 +1,21 @@
+.articulo2 {
+	background: $color-imagenes;
+	display:grid;
+	width: 100%;
+	gap: .3em;
+	grid-template-columns: repeat(4 , 1fr);
+	grid-template-rows: auto;
+	justify-content:center;
+	align-items: center;
+	padding: $articulo-padding;
+
+}
+
+.grid-item {
+	//border: 1px solid blue;
+	grid-column: span 1;
+	
+	img, source {
+		width: 100%;
+	}
+}

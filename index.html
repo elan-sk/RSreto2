@@ -11,9 +11,11 @@
 <body>
     <header class="header container">
         <h1> Mozilla </h1>
-        <img src="img/120px/firefox_logo-only_RGB120.png" alt="logo de Mozilla">
+        <img src="img/firefox_logo-only_RGB120.png" alt="logo de Mozilla">
     </header>
     <section class="container">
+
+        
         <article class="articulo1">
             <iframe width="400" height="200" src="https://www.youtube.com/embed/ojcNcvb1olg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
             <div class="video-texto">
@@ -25,15 +27,60 @@
                 </p>
             </div>
         </article>
+
+
         <article class="articulo2">
-            <img src="img/400px/firefox_logo-only_RGB400.png" alt="" class="grid-item">
-            <img src="img/400px/mozilla-dinosaur-head400.png" alt="" class="grid-item">
-            <img src="img/400px/firefox-addons400.jpg" alt="" class="grid-item">
-            <img src="img/mdn.svg" alt="" class="grid-item">
+
+            <picture class="grid-item" alt="logo de Mozilla">
+                <source media="(max-width: 500px)" srcset="img/firefox_logo-only_RGB120.png, img/firefox_logo-only_RGB400.png">
+                <img src="img/firefox_logo-only_RGB400.png">
+            </picture>
+
+            <picture class="grid-item" alt="Cabeza de Dinosaurio">
+                <source media="(max-width: 500px)" srcset="img/mozilla-dinosaur-head120.png, img/mozilla-dinosaur-head400.png">
+                <img src="img/mozilla-dinosaur-head400.png">
+            </picture>
+
+            <picture class="grid-item" alt="Rompecabezas con logo de Mozilla">
+                <source media="(max-width: 500px)" srcset="img/firefox-addons120.jpg, img/firefox-addons400.jpg">
+                <img src="img/firefox-addons400.jpg">
+            </picture>
+
+            <picture class="grid-item" alt="logo mdn">
+                <img src="img/mdn.svg">
+            </picture>
+
         </article>
+
+
         <article class="articulo3">
-            <img src="img/red-panda.jpg" alt="" class="grid-item">
+            <picture alt="Panda rojo, mascota de Mozilla" >
+                <source media="(max-width: 500px)" srcset="img/red-panda-estrecho.jpg, img/red-panda.jpg">
+                <img src="img/red-panda.jpg">
+            </picture>
         </article>
+
+
     </section>
+    
+
+    <footer class="container">
+        <div class="social">
+            <a href="https://www.facebook.com/the.elan.sk/" class="social-link facebook" target="_blank"></a>
+            <a href="https://github.com/elan-sk" class="social-link github" target="_blank"></a>
+            <a href="https://www.youtube.com/channel/UC4pJAnQV9UJYQ_-aYgZt17w" class="social-link youtube" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/elan-francisco-perea-asprilla-920271211/" class="social-link linkedin" target="_blank"></a>
+        </div>
+
+        <div class="desarrollador-marca">
+            <img src="img/LOGOTIPO.png" alt="Elan-sk Soft" width="200">
+            <p>
+                elan-sk@hotmail.com
+            </p>
+        </div>
+    </footer>
+    
 </body>
 </html>
+
+

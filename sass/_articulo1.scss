@@ -1,0 +1,25 @@
+
+.articulo1 {
+	background: $color-video;
+	padding: $articulo-padding;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	.video {
+		max-width: $video-width;
+		height: $video-height;
+
+		margin-bottom: .8em;
+	}
+	.video-texto {
+		flex: 1 1 400px;
+		padding:0 .8em;
+		margin-bottom: .4em;
+
+		h2 {
+			margin-bottom: .4em;
+		}
+	}
+}
